@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap');
+
+body{
+     background:url(https://i.pinimg.com/564x/fc/c9/f0/fcc9f07c2de3cdfa419635a6fd7ed05d.jpg);
+     background-size:100%;
+     font-family: 'Unbounded', cursive;
+
+}
+
+/*estilos para el main */
+nav ul{
+     display:flex;
+justify-content:center;
+     list-style:none;
+     font-size:2rem;
+     
+     
+}     
+
+nav ul li{
+     margin-left:40px;
+     margin-right:40px;
+     padding:20x 40px;
+     
+     
+     
+
+}
+
+heater{
+     position:sticky;
+     padding-top:30px ;
+     padding-bottom:30px;
+}
+
+     
+section#inicio h1{
+     font-size:3rem; 
+     background-color:beige;
+     
+}
+
+ section#inicio h2{
+     font-size: 2rem;
+
+ }
+
+ section#inicio{
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+
+ }
+
+
+
+
+ section{
+     height: 200px;
+     
+ }
+
+ .proyectos-1{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+ 
+ .proyecto-detalle{
+     border:5px solid blueviolet;
+     width: 300px;
+     margin: 20px;
+      
+     
+ }
+
+ .proyecto-detalle img{
+     width:100%;
+ }
+
+ 
+ h2{
+     text-align: center;
+     font-size: 2rem;
+     padding: 10x 20px;
+
+ }
+
+ section#objetivo h2{
+     text-align: center;
+     padding-top: 60px;
+     
+     
+ }
+
+ p{
+     text-align: center;
+     
+     
+     
+     
+ }
+
+ section#proyectos{
+    margin-top: 70px;
+    padding-top: 70px;
+ }                          /*fin de estilo para el main*/
+
+/*estilos de aside*/
+ aside#experiencia{
+    justify-content:center;
+    text-align: center;
+ margin-top: 350px;
+ padding-top:  350px;
+ 
+ 
+ display:flex;
+
+ 
+ }
+
+ .miexperiencia{
+    padding-top: 100px;
+    
+    
+ }               /*fin de estilos para aside/
+
+
+ 
+
+ /*pie de pagina en el footer*/
+
+.pie-pagina{
+    width:100%;
+    background-color:#0a141d;
+}
+
+.pie-pagina .pagina1{
+    width:100%;
+    display:flex;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 50px;    
+    padding:45px 0px;
+}
+ 
+.pie-pagina .pagina1 .box figure{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:left;
+    align-items:left;
+}
+
+.pie-pagina .pagina1 .box figure img{
+    width: 250px;
+    
+}
+.pie-pagina .pagina1 .box h2{
+    color:#fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+    .pie-pagina .pagina1 .box p{
+        color:#efefef;
+        margin-bottom: 10px;
+    }
+    
+    .pie-pagina .pagina1 .red-social a{
+        display:inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color:#fff;
+        margin-right: 10px;
+        background-color:#0d2033;
+        text-align:center;
+        transition:all 300ms ease;
+    }
+
+    
+    
+.pie-pagina .pagina2{
+    background-color: #0a1a2a;
+    padding:15px 10px;
+    text-align: center;
+    color:#fff;
+}
+ 
+.pie-pagina .pagina2 small{
+    font-size: 15px;
+}
+ 
+/*terminado de pie de pagina*/
+
+
+
+/*estilo del main de la parte d elos objetivos*/
+
+.inicio img{
+    width: 1400px;;
+    height: 900px;
+}
+
+
+
+section#objetivo .nombre{
+    color:white;
+    font-size:3rem ;
+    justify-content: left;
+    padding-top: 150px;
+    margin-top:50px;
+}
+
+section#objetivo .ocupacion{
+    font-size:2rem;
+    justify-content:left;
+    color:#fff;
+}
+
+/*fin de estilo del main de los objetivos*/
+
+
+/*este es el boton de formacion y referencias donde le cambie el estilo*/
+.click{
+    color:#fff;
+    text-align: left;
+    justify-content:left;
+    padding-right:1230px;
+    font-size:1rem;
+}
+
+
+.click2{
+    color:#fff;
+    text-align: left;
+    justify-content: left;
+    padding-right:1230px;
+} /*aca termina el estilo del boton*/
